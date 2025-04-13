@@ -1,0 +1,8 @@
+{
+    "questions": [
+        {
+            "question": "Câu hỏi 1",
+            "answers": ["A", "B", "C", "D"]
+        }
+    ]
+}
