@@ -1,0 +1,1 @@
+export * from './trinh-ha-2025/trinh-ha-2025.component'
