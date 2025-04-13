@@ -11,6 +11,10 @@ export const routes: Routes = [{
         {
             path: 'trinh-ha-2025',
             loadComponent: () => import('./questions/trinh-ha-2025/trinh-ha-2025.component').then(m => m.TrinhHa2025Component)
+        },
+        {
+            path: 'trinh-ha-2025-luyen-tap',
+            loadComponent: () => import('./questions/trinh-ha-2025/trinh-ha-2025-practise/trinh-ha-2025-practise.component').then(m => m.TrinhHa2025PractiseComponent)
         }
     ]
 }];

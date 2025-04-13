@@ -1635,6 +1635,20 @@
     "@napi-rs/nice-win32-ia32-msvc" "1.0.1"
     "@napi-rs/nice-win32-x64-msvc" "1.0.1"
 
+"@ng-web-apis/common@^4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@ng-web-apis/common/-/common-4.12.0.tgz#3213d8c49b7242a5fd815eb48c88af423a982130"
+  integrity sha512-OG4ChsEWQ0IbGJ+WrJAiOY5X4jF8f5YUCss961taPeiyhvwtUo4zAuX3UvtV/iJSt8XZ41jaOYFTyMIBGubv4Q==
+  dependencies:
+    tslib "^2.3.0"
+
+"@ng-web-apis/speech@^4.12.0":
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/@ng-web-apis/speech/-/speech-4.12.0.tgz#4769f4deee16f23afd4bb8ed3dc116515911465e"
+  integrity sha512-AjZ5CA5T7VTBo8q2DgIru82XRKSQeScJ5Pb3EUgo5/VzqAcenWt7fw0Opo0h4C83JM/lGkaR+vfwBURam9+t9w==
+  dependencies:
+    tslib "^2.3.0"
+
 "@ngtools/webpack@19.2.7":
   version "19.2.7"
   resolved "https://registry.npmjs.org/@ngtools/webpack/-/webpack-19.2.7.tgz"
@@ -2308,16 +2322,7 @@
   dependencies:
     "@unocss/core" "66.1.0-beta.11"
 
-"@unocss/preset-typography@66.1.0-beta.11":
-  version "66.1.0-beta.11"
-  resolved "https://registry.npmjs.org/@unocss/preset-typography/-/preset-typography-66.1.0-beta.11.tgz"
-  integrity sha512-uXOjqVhSEywCQqzHAuV5BYXQMSNf4IehxxBH1IEYRb1lMEQz6+ecQ22tfhrhs11W1M5CMlrOuaBNwUn1dT0Blg==
-  dependencies:
-    "@unocss/core" "66.1.0-beta.11"
-    "@unocss/preset-mini" "66.1.0-beta.11"
-    "@unocss/rule-utils" "66.1.0-beta.11"
-
-"@unocss/preset-typography@^66.1.0-beta.11":
+"@unocss/preset-typography@66.1.0-beta.11", "@unocss/preset-typography@^66.1.0-beta.11":
   version "66.1.0-beta.11"
   resolved "https://registry.yarnpkg.com/@unocss/preset-typography/-/preset-typography-66.1.0-beta.11.tgz#5d81cef3cfcd56225e14c4f1b86ebb3cb9de99c6"
   integrity sha512-uXOjqVhSEywCQqzHAuV5BYXQMSNf4IehxxBH1IEYRb1lMEQz6+ecQ22tfhrhs11W1M5CMlrOuaBNwUn1dT0Blg==

@@ -1,0 +1,28 @@
+<div class="app">
+    <div class="flex flex-col">
+      <section class="px-4 md:px-6 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            <div class="flex flex-row justify-center"><h1 class="text-3xl font-bold tracking-tight md:text-4xl">Câu hỏi Trinh Hà 2025</h1></div>
+        </div>
+      </section>
+      <section class="px-4 md:px-6 lg:px-8">
+        <div class="mx-auto max-w-4xl">
+            {{stream$ | async | json}}
+        </div>
+    
+      @if (stream$ | async; as result) {
+        @for (item of result; track $index) {
+          <span
+             
+              [class.transcript_final]="item.isFinal"
+          >
+              {{ item?.transcript }}
+          </span>
+        }
+        
+      }
+      </section>
+      
+    </div>
+  </div>
+  
