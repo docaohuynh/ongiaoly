@@ -1,8 +1,9 @@
-import { defineConfig, presetWebFonts, presetWind3 } from 'unocss'
+import { defineConfig, presetAttributify, presetTypography, presetWebFonts, presetWind3 } from 'unocss'
 
 export default defineConfig({
   presets: [
     presetWind3(),
+    presetAttributify(),
     presetWebFonts({
       provider: 'google',
       fonts: {
@@ -10,6 +11,8 @@ export default defineConfig({
         mono: ['Fira Code', 'Fira Mono:400,700'],
       },
     }),
+    presetTypography(),
+
   ], // presets: [] -  disable default presets - includes preflight layer
   rules: [
     ['h-1', { 'font-size': '20px', 'color': '#daa420' }],

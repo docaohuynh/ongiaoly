@@ -208,6 +208,8 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* layer: typography */
+.prose-violet{--un-prose-body:#6d28d9;--un-prose-headings:#4c1d95;--un-prose-links:#4c1d95;--un-prose-lists:#a78bfa;--un-prose-hr:#ddd6fe;--un-prose-captions:#8b5cf6;--un-prose-code:#4c1d95;--un-prose-borders:#ddd6fe;--un-prose-bg-soft:#ede9fe;--un-prose-invert-body:#ddd6fe;--un-prose-invert-headings:#ede9fe;--un-prose-invert-links:#ede9fe;--un-prose-invert-lists:#8b5cf6;--un-prose-invert-hr:#6d28d9;--un-prose-invert-captions:#a78bfa;--un-prose-invert-code:#ede9fe;--un-prose-invert-borders:#6d28d9;--un-prose-invert-bg-soft:#5b21b6;}
 /* layer: default */
 .mx-auto{margin-left:auto;margin-right:auto;}
 .mt-2{margin-top:0.5rem;}
